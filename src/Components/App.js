@@ -8,10 +8,15 @@ const Container = styled.div`
   flex-direction: column;
 `
 const Figure = styled.figure`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 2rem;
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  @media screen and (min-width: 1024px) {
+  }
 `
 const Image = styled.img``
 
